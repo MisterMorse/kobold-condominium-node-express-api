@@ -1,0 +1,11 @@
+{
+  "name": "kobold-condominium-node-express-api",
+  "version": "1.0.0",
+  "description": "An API to serve data to an app for my local game shop.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "author": "",
+  "license": "ISC"
+}
