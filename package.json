@@ -4,8 +4,16 @@
   "description": "An API to serve data to an app for my local game shop.",
   "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "export NODE_ENV=test && jasmine"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "axios": "^1.2.0",
+    "jasmine": "^4.5.0"
+  }
 }
